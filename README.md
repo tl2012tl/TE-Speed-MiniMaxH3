@@ -1,9 +1,17 @@
-# TE-Speed-MiniMaxH3  3.2
+# TE-Speed-MiniMaxH3  3.3
 
 MiniMax H3 专用推理加速节点，面向视频与原生音频联合生成场景。
 B站:TETAE
 
 TE-Speed从2.0开始不再以加速时间为第一标准,而是速度质量兼顾
+
+
+## 3.3 — 新版 ComfyUI PDD LoRA / Alibaba Acc LoRA 支持
+
+适配新版 ComfyUI 对 MiniMax H3 的 **PDD（Parallel Decoding Distillation，并行解码蒸馏）** 支持。
+Alibaba 的 [MiniMax-H3-Acc-LoRAs]就是采用 PDD 方式训练的官方加速 LoRA。
+TE-Speed 3.3 已完成对应适配,兼容新版接口，并保留旧版数接口兼容性。
+
 
 
 ## 3.2 — 新版 ComfyUI H3 / 8步Lora 适配/新增八步模式
