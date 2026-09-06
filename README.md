@@ -1,9 +1,19 @@
-# TE-Speed-MiniMaxH3  3.3
+# TE-Speed-MiniMaxH3  3.5
 
 MiniMax H3 专用推理加速节点，面向视频与原生音频联合生成场景。
 B站:TETAE
 
 TE-Speed从2.0开始不再以加速时间为第一标准,而是速度质量兼顾
+
+
+## 3.5 — 新版 ComfyUI H3 接口与 Comfy Compiler 兼容适配
+
+适配新版 ComfyUI H3 接口,请更新至 ComfyUI 最新版使用.
+
+- 适配新版 ComfyUI H3 ControlNet / Block Patch  接口。
+- 适配新版 ComfyUI `Block Sparse Attention`（Sol-Attn / SLA / VSA）节点，支持 `layout`、`block_index` 和 `attention` 替换接口。
+- 适配官方新 Block Sparse Attention 节点。
+- 适配新版 ComfyUI Comfy Compiler / `aimdo` 的 malloc graph，避免动态跳块时发生冲突。
 
 
 ## 3.3 — 新版 ComfyUI PDD LoRA / Alibaba Acc LoRA 支持
